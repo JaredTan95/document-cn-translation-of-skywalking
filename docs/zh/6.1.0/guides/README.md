@@ -1,13 +1,13 @@
 # 贡献指南
 
-你可以通过以下方式, 为SkyWalking社区做成贡献.
+你可以通过以下方式, 为 SkyWalking 社区做出贡献.
 
 - 通览 SkyWalking 的文档, 指出或修复文档不准确的地方, 也可以将 SkyWalking 文档翻译成其他语言.
 - 下载我们的[发行版本](http://skywalking.apache.org/downloads/), 尝试用其监控你的应用程序, 并向我们反馈您的想法, 疑问或使用案例.
 - 阅读我们的源码, 如果对于细节有疑问, 向我们提问.
-- 寻找代码中的 bug, 可在[这里](https://github.com/apache/incubator-skywalking/issues)提交问题, 并且您也可以尝试修复它.
-- 从标记为[需要帮助的问题列表](https://github.com/apache/incubator-skywalking/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)中入手开始你的贡献.
-- 在 [GitHub 的问题列表](https://github.com/apache/incubator-skywalking/issues/new)提交问题或开启一个讨论.
+- 寻找代码中的 bug, 可在[这里](https://github.com/apache/skywalking/issues)提交问题, 并且您也可以尝试修复它.
+- 从标记为[需要帮助的问题列表](https://github.com/apache/skywalking/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)中入手开始你的贡献.
+- 在 [GitHub 的问题列表](https://github.com/apache/skywalking/issues/new)提交问题或开启一个讨论.
 - 通过[网页邮件列表](https://lists.apache.org/list.html?dev@skywalking.apache.org)查看所有邮件的讨论, 如果您是 SkyWalking 项目的 committer, 可在浏览器模式下登录并使用邮件列表. 否则, 按照下面指南进行订阅.
 - 问题的报告和讨论也可在 `dev@skywalking.apache.org` 邮件列表中进行,
   
@@ -17,7 +17,7 @@
 
 以下所有渠道均向社区开放, 您可以选择自己喜欢的方式.
 
-* 提交[问题](https://github.com/apache/incubator-skywalking/issues)
+* 提交[问题](https://github.com/apache/skywalking/issues)
 * 邮件列表: **dev@skywalking.apache.org**. 发送邮件到 `dev-subscribe@skywalking.apache.org`, 按照回复订阅邮件列表.
 * [Gitter](https://gitter.im/openskywalking/Lobby)
 * QQ 群: 392443393
@@ -42,8 +42,8 @@ SkyWalking 提供了许多方法来对现有功能进行扩展. 如果你对这�
 SkyWalking UI 由静态页面和 Web 容器构成.
 
 - 自 6.1 版本开始, [RocketBot UI](https://github.com/apache/skywalking-rocketbot-ui) 已经成为 SkyWalking 的原生 UI. 其采用 VueJS + TypeScript 构建. 你可以在 RocketBot 代码仓库了解更多.
-- **Web容器** 源代码在 `apm-webapp` 模块中. 这是一个简单的 zuul 代理, 用于托管静态资源并使用 GraphQL 想后端发送查询请求.
-- [旧的 UI 代码仓库](https://github.com/apache/incubator-skywalking-ui) 依旧保留, 但从 6.0.0-GA 以后不会再被包含在 SkyWalking 发行版中.
+- **Web容器** 源代码在 `apm-webapp` 模块中. 这是一个简单的 zuul 代理, 用于托管静态资源并使用 GraphQL 向后端发送查询请求.
+- [旧的 UI 代码仓库](https://github.com/apache/skywalking-ui) 依旧保留, 但从 6.0.0-GA 以后不会再被包含在 SkyWalking 发行版中.
 
 ## 发布
 
